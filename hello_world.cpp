@@ -2,13 +2,13 @@
 #include <string>
 
 int main() {
-    std::string name;  // переменная для хранения имени пользователя
+    std::string name;  // variable to store user name
     
-    // Запрашиваем имя пользователя
+    // Request user name
     std::cout << "Enter your name: ";
     std::getline(std::cin, name);
     
-    // Выводим приветствие
+    // Print greeting
     std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
